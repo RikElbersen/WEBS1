@@ -1,0 +1,38 @@
+/* this file contains all the standard styling for components on the website*/
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+p, h1, h2, h3, h4, h5, h6, button, a{
+    font-family: apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+}
+header{
+    max-height: 200px;
+    overflow: hidden;
+}
+#header_image{
+    margin-top:-30%;
+    width: 100vw;
+    height: auto;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: auto;
+    background-color: rgb(254, 157, 157);
+}
+
+nav > img{
+    justify-self: left;
+    width: 100px;
+}
+nav > ul{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}

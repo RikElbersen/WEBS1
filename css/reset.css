@@ -1,0 +1,14 @@
+/*this file contains a reset for the styling*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+a, a:hover, a:focus, a:active {
+    text-decoration: none;
+    color: inherit;
+}
+
+button{
+    border: none;
+}
