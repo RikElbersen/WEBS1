@@ -7,4 +7,11 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content: center;
+}
+
+.gallerijImage{
+    width: 500px;
+    margin: 20px;
+    border-radius: 5px;
 }
