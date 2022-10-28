@@ -8,6 +8,8 @@ body{
 p, h1, h2, h3, h4, h5, h6, button, a{
     font-family: apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
 }
+
+/*Header/navbar*/
 header{
     max-height: 200px;
     overflow: hidden;
@@ -28,11 +30,20 @@ nav{
 
 nav > img{
     justify-self: left;
-    width: 100px;
+    width: 60px;
+    border-radius: 50px;
+    padding: 5px 5px 5px 5px;
 }
 nav > ul{
     width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+}
+
+/*main*/
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }

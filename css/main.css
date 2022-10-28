@@ -1,1 +1,10 @@
 /*this file contains all the page specific styling*/
+
+
+/*Gallerij*/
+
+#gallerijImages{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
